@@ -5,6 +5,7 @@ import SocialIcons from "./SocialIcons"
 import { ExperienceTimeline, EducationTimeline } from 'app/components/Timeline'
 import ResumeButton from '../components/ResumeButton';
 import Projects from "./Projects"
+import Link from "next/link"
 
 const PcComponent: React.FC = () => {
     return (
@@ -37,7 +38,7 @@ const PcComponent: React.FC = () => {
                                 <Space h="20" />
                                 <InternalGuide title="PROJECTS" id="#projects" />
                                 <Space h="20" />
-                                <InternalGuide title="BLOG" id="#blog" />
+                                <InternalGuide title="PUBLICATIONS" id="#publications" />
                                 <Space h="20" />
                             </div>
                             
@@ -48,6 +49,7 @@ const PcComponent: React.FC = () => {
                     </div>
                     <div className='w-3/5 flex-grow overflow-y-auto'>
                         <section id='about' className='py-20'>
+                            <div className="text-2xl text-white font-bold mb-8">ABOUT</div>
                             <div>
                                 <p className="text-xl mb-3 text-slate-400">
                                     I was born in Japan, Kagawa Prefecture.
@@ -63,6 +65,7 @@ const PcComponent: React.FC = () => {
                         </section>
                         <section id='experience'>
                             <div className='py-20'>
+                                <div className="text-2xl text-white font-bold mb-8">EXPERIENCE</div>
                                 <ExperienceTimeline isSp={false} />
                                 <Space h="20" />
                                 <div>
@@ -73,12 +76,45 @@ const PcComponent: React.FC = () => {
                         </section>
                         <section id='education'>
                             <div className='py-20'>
+                                <div className="text-2xl text-white font-bold mb-8">EDUCATION</div>
                                 <EducationTimeline isSp={false} />
                             </div>
                         </section>
                         <section id='projects'>
                             <div className='py-20'>
+                                <div className="text-2xl text-white font-bold mb-8">PROJECTS</div>
                                 <Projects isSp={false} />
+                            </div>
+                        </section>
+                        <section id='publications'>
+                            <div className='py-20'>
+                                <div className="text-2xl text-white font-bold mb-8">SELECTED PUBLICATIONS & INVITED TALKS</div>
+                                <div className="space-y-6">
+                                    <Link href="BlitzMe: A Social Media Platform Combining Smile Recognition and Human Computation for Positive Mood Enhancement" className="block publication-item transition duration-300 ease-in-out transform hover:bg-slate-800 hover:shadow-lg hover:scale-[1.02] rounded-2xl p-4">
+                                        <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-[#5CE6D1]">BlitzMe: A Social Media Platform Combining Smile Recognition and Human
+                                        Computation for Positive Mood Enhancement</h3>
+                                        <p className="text-sm text-slate-400">The Twelfth AAAI Conference on Human Computation and Crowdsourcing</p>
+                                        <p className="text-sm text-slate-400 mt-1">Authors: Fuyuki Matsubara, et al.</p>
+                                    </Link>
+                                    <Link href="https://sigfin.org/?plugin=attach&refer=026-12&openfile=12_SIG-FIN-26.pdf" className="block publication-item transition duration-300 ease-in-out transform hover:bg-slate-800 hover:shadow-lg hover:scale-[1.02] rounded-2xl p-4">
+                                        <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-[#5CE6D1]">Stock Price Prediction Using Limit Order Book Data with Data Stratification and Multi-Phase Pre-training</h3>
+                                        <p className="text-sm text-slate-400">The Japanese Society for Artificial Intelligence SIG-FIN 2021</p>
+                                        <p className="text-sm text-slate-400 mt-1">Authors: Matsubara, F,  et al.</p>
+                                    </Link>
+                                    
+                                    <Link href="https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1K4ES205/_pdf/-char/ja" className="block publication-item transition duration-300 ease-in-out transform hover:bg-slate-800 hover:shadow-lg hover:scale-[1.02] rounded-2xl p-4">
+                                        <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-[#5CE6D1]">Analysis of Value and Momentum Factors in Japanese Government Bond
+                                        and Stock Index Using Machine Learning</h3>
+                                        <p className="text-sm text-slate-400">The Japanese Society for Artificial Intelligence 2020</p>
+                                        <p className="text-sm text-slate-400 mt-1">Authors: Matsubara, F,  et al.</p>
+                                    </Link>
+
+                                    <Link href="https://informatics.kanto-gakuin.ac.jp/faculty/yoshikawa/" className="block publication-item transition duration-300 ease-in-out transform hover:bg-slate-800 hover:shadow-lg hover:scale-[1.02] rounded-2xl p-4">
+                                        <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-[#5CE6D1]">Human-Computer Interaction</h3>
+                                        <p className="text-sm text-slate-400">Guest Lecturer at Kanto Gakuin University</p>
+                                    </Link>
+
+                                </div>
                             </div>
                         </section>
                         <section >
