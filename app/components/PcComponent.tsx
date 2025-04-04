@@ -55,7 +55,7 @@ const PcComponent: React.FC = () => {
                                     I was born in Japan, Kagawa Prefecture.
                                 </p>
                                 <p className='text-xl mb-3 text-slate-400'>
-                                    I've been building AI software for <span className='text-white'>enterprises</span>, <span className='text-white'>startups</span>, and <span className='text-white'>my own company</span>, occasionally seeking comfort while continuously pushing the boundaries of my potential.
+                                    I've been building AI software for <span className='text-white'>enterprises</span>, <span className='text-white'>startups</span>, and <span className='text-white'>my own company</span>.
                                 </p>
                             
                                 <p className='text-xl text-slate-400'>
