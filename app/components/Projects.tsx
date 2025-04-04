@@ -13,9 +13,10 @@ const Projects: React.FC<ProjectsProps> = ({ isSp }) => {
                 isSp={isSp}
                 isExit={false}
                 title="Flare"
-                affiliation="Hobby"
+                affiliation="Personal Project"
                 imageURL="./assets/flare_icon_logo.png"
-                description="Flare is an AI Agent that builds a Flutter app from natural language in minutes."
+                description="An AI Agent that builds a Flutter app from natural language, winning
+                 Best Flutter + Firebase Award @ Google AI Agent Hackathon 💙🔥"
                 tags={["Flutter", "Firebase", "Next.js", "Vertex AI", "Google AI Studio"]}
                 link={"https://flare--flare-pilot.asia-east1.hosted.app/"}
             />
