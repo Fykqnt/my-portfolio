@@ -37,7 +37,7 @@ const Projects: React.FC<ProjectsProps> = ({ isSp }) => {
                 affiliation="Arrowheads, Inc."
                 imageURL="./assets/blitzme_en.png"
                 description="BlitzMe is a social media platform that allows to like the content from the users' smile."
-                tags={['Product Management', 'Flutter', 'Next.js', 'Firebase', 'Django', 'PostgreSQL', 'Cloud SQL', 'Cloud Run', 'Cloud CDN', 'Revenu Cat']}
+                tags={['Product Management', 'Flutter', 'Next.js', 'Firebase', 'Django', 'PostgreSQL', 'Cloud SQL', 'Cloud Run', 'Cloud CDN', 'Revenue Cat']}
                 link={"http://blitzme-app.com/en/"}
             />
            

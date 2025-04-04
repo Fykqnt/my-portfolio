@@ -50,7 +50,7 @@ const PcComponent: React.FC = () => {
                         <section id='about' className='py-20'>
                             <div>
                                 <p className="text-xl mb-3 text-slate-400">
-                                    <span className='text-white text-4xl mr-3 '>1996</span>, I was born in Japan, Kagawa Prefecture.
+                                    I was born in Japan, Kagawa Prefecture.
                                 </p>
                                 <p className='text-xl mb-3 text-slate-400'>
                                     I've been building AI software for <span className='text-white'>enterprises</span>, <span className='text-white'>startups</span>, and <span className='text-white'>my own company</span>, occasionally seeking comfort while continuously pushing the boundaries of my potential.
