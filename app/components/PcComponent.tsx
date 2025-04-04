@@ -30,7 +30,7 @@ const PcComponent: React.FC = () => {
                             <h3 className='text-lg text-slate-400 w-3/4'>I love building products that reduce the entropy of the universe.</h3>
 
                             <div className='my-20'>
-                                <InternalGuide title="ABOUT" id="#about" />
+                                <InternalGuide title="ABOUT ME" id="#about" />
                                 <Space h="20" />
                                 <InternalGuide title="EXPERIENCE" id="#experience" />
                                 <Space h="20" />
@@ -49,13 +49,15 @@ const PcComponent: React.FC = () => {
                     </div>
                     <div className='w-3/5 flex-grow overflow-y-auto'>
                         <section id='about' className='py-20'>
-                            <div className="text-2xl text-white font-bold mb-8">ABOUT</div>
+                            <div className="text-2xl text-white font-bold mb-8">ABOUT ME</div>
                             <div>
                                 <p className="text-xl mb-3 text-slate-400">
                                     I was born in Japan, Kagawa Prefecture.
                                 </p>
                                 <p className='text-xl mb-3 text-slate-400'>
                                     I've been building AI software for <span className='text-white'>enterprises</span>, <span className='text-white'>startups</span>, and <span className='text-white'>my own company</span>.
+                                    I'm also Passionate about implementing the concept of <span className='text-white'>"Maxwell's Demon"</span> in real-world.
+
                                 </p>
                             
                                 <p className='text-xl text-slate-400'>

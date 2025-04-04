@@ -33,13 +33,15 @@ const SpComponent: React.FC = () => {
             </div>
             <div className=' flex-grow overflow-y-auto'>
                 <section id='about' className='py-20'>
-                    <div className="text-lg text-white font-bold mb-8">ABOUT</div>
+                    <div className="text-lg text-white font-bold mb-8">ABOUT ME</div>
                     <div>
                                 <p className="text-xl mb-3 text-slate-400">
                                     I was born in Japan, Kagawa Prefecture.
                                 </p>
                                 <p className='text-xl mb-3 text-slate-400'>
                                     I've been building AI software for <span className='text-white'>enterprises</span>, <span className='text-white'>startups</span>, and <span className='text-white'>my own company</span>.
+                                    <br/>
+                                    I'm also Passionate about implementing the concept of <span className='text-white'>"Maxwell's Demon"</span> in real-world.
                                 </p>
                             
                                 <p className='text-xl text-slate-400'>
