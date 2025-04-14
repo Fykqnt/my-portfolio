@@ -24,7 +24,7 @@ const SpComponent: React.FC = () => {
                     <h1 className="text-4xl mb-3 font-bold tracking-tighter text-white">
                         Fuyuki Matsubara
                     </h1>
-                    <h2 className='mb-4 text-xl text-white'>AI Engineer/ Entrepreneur </h2>
+                    <h2 className='mb-4 text-xl text-white'>ML Engineer/ Entrepreneur </h2>
                     <h3 className='text-lg text-slate-400 w-3/4'>I love building products that reduce the entropy of the universe.</h3>
                 </section>
             </div>

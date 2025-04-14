@@ -26,7 +26,7 @@ const PcComponent: React.FC = () => {
                             <h1 className="text-5xl mb-3 font-bold tracking-tighter text-white">
                                 Fuyuki Matsubara
                             </h1>
-                            <h2 className='mb-4 text-2xl text-white'>AI Engineer/ Entrepreneur</h2>
+                            <h2 className='mb-4 text-2xl text-white'>ML Engineer/ Entrepreneur</h2>
                             <h3 className='text-lg text-slate-400 w-3/4'>I love building products that reduce the entropy of the universe.</h3>
 
                             <div className='my-20'>

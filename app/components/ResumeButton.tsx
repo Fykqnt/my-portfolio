@@ -6,7 +6,7 @@ export default function ResumeButton() {
         <Button
             component="a"
             variant='transparent'
-            href="./assets/resume.pdf"
+            href="https://www.linkedin.com/in/fuyuki-matsubara-0a64301ab/"
             target="_blank"
             rel="noopener noreferrer"
             color="rgba(92, 230, 209)"
