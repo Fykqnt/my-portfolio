@@ -92,6 +92,12 @@ const PcComponent: React.FC = () => {
                             <div className='py-20'>
                                 <div className="text-2xl text-white font-bold mb-8">SELECTED PUBLICATIONS & INVITED TALKS</div>
                                 <div className="space-y-6">
+                                <Link href="" className="block publication-item transition duration-300 ease-in-out transform hover:bg-slate-800 hover:shadow-lg hover:scale-[1.02] rounded-2xl p-4">
+                                        <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-[#5CE6D1]">Smile to Like: Effects of Facial Expression-Based Evaluation on Media Engagement and Emotional Self-Awareness
+                                        <br/><i>(TOP10%)</i></h3>
+                                        <p className="text-sm text-slate-400">ACM Symposium on Applied Perception (SAP)</p>
+                                        <p className="text-sm text-slate-400 mt-1">Authors: Ryo Ohara, Fuyuki Matsubara and Takuji Narumi</p>
+                                    </Link>
                                     <Link href="BlitzMe: A Social Media Platform Combining Smile Recognition and Human Computation for Positive Mood Enhancement" className="block publication-item transition duration-300 ease-in-out transform hover:bg-slate-800 hover:shadow-lg hover:scale-[1.02] rounded-2xl p-4">
                                         <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-[#5CE6D1]">BlitzMe: A Social Media Platform Combining Smile Recognition and Human
                                         Computation for Positive Mood Enhancement
@@ -102,14 +108,14 @@ const PcComponent: React.FC = () => {
                                     <Link href="https://sigfin.org/?plugin=attach&refer=026-12&openfile=12_SIG-FIN-26.pdf" className="block publication-item transition duration-300 ease-in-out transform hover:bg-slate-800 hover:shadow-lg hover:scale-[1.02] rounded-2xl p-4">
                                         <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-[#5CE6D1]">Stock Price Prediction Using Limit Order Book Data with Data Stratification and Multi-Phase Pre-training</h3>
                                         <p className="text-sm text-slate-400">JSAI SIG-FIN 2021</p>
-                                        <p className="text-sm text-slate-400 mt-1">Authors: Matsubara, F,  et al.</p>
+                                        <p className="text-sm text-slate-400 mt-1">Authors: Fuyuki Matsubara, Kiyoshi Izumi and Hiroki Sakaji</p>
                                     </Link>
                                     
                                     <Link href="https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1K4ES205/_pdf/-char/ja" className="block publication-item transition duration-300 ease-in-out transform hover:bg-slate-800 hover:shadow-lg hover:scale-[1.02] rounded-2xl p-4">
                                         <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-[#5CE6D1]">Analysis of Value and Momentum Factors in Japanese Government Bond
                                         and Stock Index Using Machine Learning</h3>
                                         <p className="text-sm text-slate-400">JSAI 2020</p>
-                                        <p className="text-sm text-slate-400 mt-1">Authors: Matsubara, F,  et al.</p>
+                                        <p className="text-sm text-slate-400 mt-1">Authors: Fuyuki Matsubara, Kiyoshi Izumi, Hiroki Sakaji and Hiroyasu Matsushima</p>
                                     </Link>
 
                                     <Link href="https://informatics.kanto-gakuin.ac.jp/faculty/yoshikawa/" className="block publication-item transition duration-300 ease-in-out transform hover:bg-slate-800 hover:shadow-lg hover:scale-[1.02] rounded-2xl p-4">
