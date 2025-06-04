@@ -13,7 +13,7 @@ export const ExperienceTimeline: React.FC<ExperienceTimelineProps> = ({ isSp }) 
         <Flex direction={"column"}>
             <TimelineCard
                 isSp={isSp}
-                title={'Founder & CEO/AI Engineer'}
+                title={'Founder & CEO/ML Engineer'}
                 affiliation={'Arrowheads, Inc.'}
                 date={'Jul. 2022 - Present'}
                 description={`Led development of BlitzMe from ideation to launch, leveraging user data to conduct joining-research with academic institution, validate core features. Scaled technical operations by recruiting and managing a cross-functional team of engineers, UX designers, and researchers, resulting in launch of BlitzMe with 10,000+ early adopters`}

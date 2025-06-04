@@ -101,7 +101,7 @@ const SpComponent: React.FC = () => {
                 <section>
                     <div>
                         <p className='text-sm mb-10 text-slate-400 w-3/4'>
-                            Loosely coded in <span className='text-white'>Cursor</span> by yours trully with. Built with <span className='text-white'>Next.js</span> and <span className='text-white'>Mantine UI</span>, and <span className='text-white'>TailWind CSS</span>, deployed with and <span className='text-white'>Vercel</span>.
+                            Loosely coded in <span className='text-white'>Cursor</span> by yours trully with. Built with <span className='text-white'>Next.js</span> and <span className='text-white'>TailWind CSS</span>, deployed with and <span className='text-white'>Vercel</span>.
                         </p>
                     </div>
                 </section>
