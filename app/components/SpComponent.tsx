@@ -45,7 +45,7 @@ const SpComponent: React.FC = () => {
                                 </p>
                             
                                 <p className='text-xl text-slate-400'>
-                                    Outside of building & hacking, I enjoy breakdancing, reading, and spending time with my family. 
+                                Outside of building & hacking, I enjoy breakdancing, practicing Street Fighter 6, and spending time with my family. 
                                 </p>                        
                     </div>
                 </section>
