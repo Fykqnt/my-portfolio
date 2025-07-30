@@ -92,7 +92,7 @@ const PcComponent: React.FC = () => {
                             <div className='py-20'>
                                 <div className="text-2xl text-white font-bold mb-8">SELECTED PUBLICATIONS & INVITED TALKS</div>
                                 <div className="space-y-6">
-                                <Link href="" className="block publication-item transition duration-300 ease-in-out transform hover:bg-slate-800 hover:shadow-lg hover:scale-[1.02] rounded-2xl p-4">
+                                <Link href="https://dl.acm.org/doi/10.1145/3748823" className="block publication-item transition duration-300 ease-in-out transform hover:bg-slate-800 hover:shadow-lg hover:scale-[1.02] rounded-2xl p-4">
                                         <h3 className="text-lg font-semibold text-white mb-1 group-hover:text-[#5CE6D1]">Smile to Like: Effects of Facial Expression-Based Evaluation on Media Engagement and Emotional Self-Awareness
                                         <br/><i>(TOP10%)</i></h3>
                                         <p className="text-sm text-slate-400">ACM Symposium on Applied Perception (SAP2025)</p>
