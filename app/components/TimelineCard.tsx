@@ -26,9 +26,9 @@ const TimelineCard = ({ isSp = false, title, affiliation, date, description, tag
                     {tags.map((tag) => (
                         <Badge
                             key={tag}
-                            color="#5CE6D1"
-                            variant="light"
-                            className="mt-2 transition duration-300 ease-in-out transform hover:bg-teal-400 hover:text-black"
+                            color="#10b981"
+                            variant="outline"
+                            className="mt-2 border-emerald-500 text-emerald-400 hover:bg-emerald-500 hover:text-black transition duration-300 ease-in-out transform"
                         >
                             {tag}
                         </Badge>
@@ -54,9 +54,9 @@ const TimelineCard = ({ isSp = false, title, affiliation, date, description, tag
                         {tags.map((tag) => (
                             <Badge
                                 key={tag}
-                                color="#5CE6D1"
-                                variant="light"
-                                className="mt-2 transition duration-300 ease-in-out transform hover:bg-teal-400 hover:text-black"
+                                color="#10b981"
+                                variant="outline"
+                                className="mt-2 border-emerald-500 text-emerald-400 hover:bg-emerald-500 hover:text-black transition duration-300 ease-in-out transform"
                             >
                                 {tag}
                             </Badge>

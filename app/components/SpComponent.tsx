@@ -2,6 +2,7 @@
 import { Flex, Space, AspectRatio } from "@mantine/core"
 import { InternalGuide, ExternalGuide } from "./Guide"
 import SocialIcons from "./SocialIcons"
+import Typewriter from './Typewriter'
 import { ExperienceTimeline, EducationTimeline } from 'app/components/Timeline'
 import Projects from "./Projects"
 import ResumeButton from "./ResumeButton"
@@ -24,7 +25,15 @@ const SpComponent: React.FC = () => {
                     <h1 className="text-4xl mb-3 font-bold tracking-tighter text-white">
                         Fuyuki Matsubara
                     </h1>
-                    <h2 className='mb-4 text-xl text-white'>ML Engineer/ Entrepreneur </h2>
+                    <h2 className='mb-4 text-xl text-white'>
+                        <Typewriter
+                            text={["ML Engineer", "Entrepreneur", "Hacker"]}
+                            typingSpeedMs={50}
+                            deletingSpeedMs={35}
+                            pauseMs={900}
+                            className="text-emerald-400"
+                        />
+                    </h2>
                     <h3 className='text-lg text-slate-400 w-3/4'>I love building products that reduce the entropy of the universe.</h3>
                 </section>
             </div>
@@ -33,7 +42,7 @@ const SpComponent: React.FC = () => {
             </div>
             <div className=' flex-grow overflow-y-auto'>
                 <section id='about' className='py-20'>
-                    <div className="text-lg text-white font-bold mb-8">ABOUT ME</div>
+                    <div className="text-lg text-white font-bold mb-8">INTRODUCTION</div>
                     <div>
                                 <p className="text-xl mb-3 text-slate-400">
                                     I was born in Japan, Kagawa Prefecture.

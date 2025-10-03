@@ -2,6 +2,7 @@
 import { Flex, Space, AspectRatio } from "@mantine/core"
 import { InternalGuide, ExternalGuide } from "./Guide"
 import SocialIcons from "./SocialIcons"
+import Typewriter from './Typewriter'
 import { ExperienceTimeline, EducationTimeline } from 'app/components/Timeline'
 import ResumeButton from '../components/ResumeButton';
 import Projects from "./Projects"
@@ -26,11 +27,19 @@ const PcComponent: React.FC = () => {
                             <h1 className="text-5xl mb-3 font-bold tracking-tighter text-white">
                                 Fuyuki Matsubara
                             </h1>
-                            <h2 className='mb-4 text-2xl text-white'>ML Engineer/ Entrepreneur</h2>
+                            <h2 className='mb-4 text-2xl text-white'>
+                                <Typewriter
+                                    text={["ML Engineer", "Entrepreneur", "Hacker"]}
+                                    typingSpeedMs={50}
+                                    deletingSpeedMs={35}
+                                    pauseMs={900}
+                                    className="text-emerald-400"
+                                />
+                            </h2>
                             <h3 className='text-lg text-slate-400 w-3/4'>I love building products that reduce the entropy of the universe.</h3>
 
                             <div className='my-20'>
-                                <InternalGuide title="ABOUT ME" id="#about" />
+                                <InternalGuide title="INTRODUCTION" id="#about" />
                                 <Space h="20" />
                                 <InternalGuide title="EXPERIENCE" id="#experience" />
                                 <Space h="20" />
@@ -49,7 +58,7 @@ const PcComponent: React.FC = () => {
                     </div>
                     <div className='w-3/5 flex-grow overflow-y-auto'>
                         <section id='about' className='py-20'>
-                            <div className="text-2xl text-white font-bold mb-8">ABOUT ME</div>
+                            <div className="text-2xl text-white font-bold mb-8">INTRODUCTION</div>
                             <div>
                                 <p className="text-xl mb-3 text-slate-400">
                                     I was born in Japan, Kagawa Prefecture.

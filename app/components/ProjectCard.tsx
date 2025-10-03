@@ -25,7 +25,7 @@ const ProjectCard = ({ isSp, isExit, title, affiliation, imageURL, description, 
                 href={link}
             >
                 <div className="">
-                    {isExit && <Badge color="orange">🚀 Exit</Badge>}
+                    {isExit && <Badge color="#10b981" variant="filled">🚀 Exit</Badge>}
                     <h3 className="font-semibold text-white group-hover:text-[#5CE6D1] mb-1">{title}</h3>
                     <p className="text-sm font-light text-slate-200 mb-3">{affiliation}</p>
                     <p className="text-sm font-light text-slate-200 mb-2">{description}</p>
@@ -33,9 +33,9 @@ const ProjectCard = ({ isSp, isExit, title, affiliation, imageURL, description, 
                         {tags.map((tag) => (
                             <Badge
                                 key={tag}
-                                color="#5CE6D1"
-                                variant="light"
-                                className="mt-2 transition duration-300 ease-in-out transform hover:bg-teal-400 hover:text-black"
+                                color="#10b981"
+                                variant="outline"
+                                className="mt-2 border-emerald-500 text-emerald-400 hover:bg-emerald-500 hover:text-black transition duration-300 ease-in-out transform"
                             >
                                 {tag}
                             </Badge>
@@ -73,7 +73,7 @@ const ProjectCard = ({ isSp, isExit, title, affiliation, imageURL, description, 
                 <div className="w-3/4">
                     <div className="flex flex-row items-center">
                         <h3 className="font-semibold text-white group-hover:text-[#5CE6D1] mb-1">{title}</h3>
-                        {isExit && <Badge className="ml-2" color="orange">🚀 Exit</Badge>}
+                        {isExit && <Badge className="ml-2" color="#10b981" variant="filled">🚀 Exit</Badge>}
                     </div>
                     <p className="text-sm font-light text-slate-200 mb-3">{affiliation}</p>
                     <p className="text-sm font-light text-slate-200 mb-2">{description}</p>
@@ -81,9 +81,9 @@ const ProjectCard = ({ isSp, isExit, title, affiliation, imageURL, description, 
                         {tags.map((tag) => (
                             <Badge
                                 key={tag}
-                                color="#5CE6D1"
-                                variant="light"
-                                className="mt-2 transition duration-300 ease-in-out transform hover:bg-teal-400 hover:text-black"
+                                color="#10b981"
+                                variant="outline"
+                                className="mt-2 border-emerald-500 text-emerald-400 hover:bg-emerald-500 hover:text-black transition duration-300 ease-in-out transform"
                             >
                                 {tag}
                             </Badge>

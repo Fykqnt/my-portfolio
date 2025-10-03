@@ -42,7 +42,7 @@ export default function RootLayout({
       <head>
         <meta charSet="utf-8" />
       </head>
-      <body className=" focus:bg-[#111e40] bg-[#0F172A]">
+      <body className="bg-black">
         <main className="">
           <MantineProvider theme={theme}>
             {children}
