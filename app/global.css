@@ -167,3 +167,11 @@ table {
   0%, 100% { opacity: 1; }
   50% { opacity: 0; }
 }
+
+/* Matrix background helpers (used by MatrixBackground component) */
+.matrix-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+}

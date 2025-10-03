@@ -6,6 +6,9 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import { createTheme, MantineProvider } from '@mantine/core';
 import Footer from './components/footer'
+import dynamic from 'next/dynamic'
+
+const MatrixBackground = dynamic(() => import('./components/MatrixBackground'), { ssr: false })
 
 export const metadata: Metadata = {
   title: 'Fuyuki Matsubara',
@@ -44,6 +47,7 @@ export default function RootLayout({
       </head>
       <body className="bg-black">
         <main className="">
+          <MatrixBackground />
           <MantineProvider theme={theme}>
             {children}
           </MantineProvider>
